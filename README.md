@@ -10,3 +10,5 @@
 4. Chunks should be named from 1 to N and named book_[N]. Place them in "./AzureSpeech/input/book_parts"
 5. Insert your Azure Speech configuration to appsettings. (AzureSpeechKey and AzureSpeechRegion are required)
 6. Change your language in appsettings (SpeechSynthesisLanguage setting). Supported list of languages - https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts
+7. Run the app
+8. Combine mp3 chunks in single mp3 (if needed). Free online tool - https://audio-joiner.com/ 
